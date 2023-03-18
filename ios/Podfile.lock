@@ -1,23 +1,9 @@
 PODS:
-  - AppAuth (1.6.0):
-    - AppAuth/Core (= 1.6.0)
-    - AppAuth/ExternalUserAgent (= 1.6.0)
-  - AppAuth/Core (1.6.0)
-  - AppAuth/ExternalUserAgent (1.6.0):
-    - AppAuth/Core
   - audio_session (0.0.1):
     - Flutter
   - connectivity (0.0.1):
     - Flutter
     - Reachability
-  - FBAEMKit (5.7.0):
-    - FBSDKCoreKit_Basics (= 5.7.0)
-  - FBSDKCoreKit (5.7.0):
-    - FBAEMKit (= 5.7.0)
-    - FBSDKCoreKit_Basics (= 5.7.0)
-  - FBSDKCoreKit_Basics (5.7.0)
-  - FBSDKLoginKit (5.7.0):
-    - FBSDKCoreKit (= 5.7.0)
   - Firebase/CoreOnly (9.3.0):
     - FirebaseCore (= 9.3.0)
   - Firebase/Messaging (9.3.0):
@@ -57,9 +43,6 @@ PODS:
     - GoogleUtilities/UserDefaults (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
   - Flutter (1.0.0)
-  - flutter_facebook_auth (5.0.0):
-    - FBSDKLoginKit (= 15.0.0)
-    - Flutter
   - flutter_image_compress (0.0.1):
     - Flutter
     - Mantle
@@ -76,8 +59,6 @@ PODS:
     - Flutter
   - flutter_local_notifications (0.0.1):
     - Flutter
-  - flutter_secure_storage (3.3.1):
-    - Flutter
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
@@ -86,9 +67,6 @@ PODS:
   - google_maps_flutter (0.0.1):
     - Flutter
     - GoogleMaps
-  - google_sign_in_ios (0.0.1):
-    - Flutter
-    - GoogleSignIn (~> 6.2)
   - GoogleDataTransport (9.1.4):
     - GoogleUtilities/Environment (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
@@ -98,10 +76,6 @@ PODS:
   - GoogleMaps/Base (6.2.1)
   - GoogleMaps/Maps (6.2.1):
     - GoogleMaps/Base
-  - GoogleSignIn (6.2.4):
-    - AppAuth (~> 1.5)
-    - GTMAppAuth (~> 1.3)
-    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
   - GoogleUtilities/AppDelegateSwizzler (7.7.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -119,10 +93,6 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.7.0):
     - GoogleUtilities/Logger
-  - GTMAppAuth (1.3.1):
-    - AppAuth/Core (~> 1.6)
-    - GTMSessionFetcher/Core (< 3.0, >= 1.5)
-  - GTMSessionFetcher/Core (2.1.0)
   - image_compression_flutter (1.0.0):
     - Flutter
   - image_picker_ios (0.0.1):
@@ -183,15 +153,12 @@ DEPENDENCIES:
   - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
   - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
   - Flutter (from `Flutter`)
-  - flutter_facebook_auth (from `.symlinks/plugins/flutter_facebook_auth/ios`)
   - flutter_image_compress (from `.symlinks/plugins/flutter_image_compress/ios`)
   - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
   - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
   - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
-  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
   - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
   - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
-  - google_sign_in_ios (from `.symlinks/plugins/google_sign_in_ios/ios`)
   - image_compression_flutter (from `.symlinks/plugins/image_compression_flutter/ios`)
   - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
   - just_audio (from `.symlinks/plugins/just_audio/ios`)
@@ -207,11 +174,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - AppAuth
-    - FBAEMKit
-    - FBSDKCoreKit
-    - FBSDKCoreKit_Basics
-    - FBSDKLoginKit
     - Firebase
     - FirebaseCore
     - FirebaseCoreDiagnostics
@@ -221,10 +183,7 @@ SPEC REPOS:
     - FMDB
     - GoogleDataTransport
     - GoogleMaps
-    - GoogleSignIn
     - GoogleUtilities
-    - GTMAppAuth
-    - GTMSessionFetcher
     - libwebp
     - Mantle
     - nanopb
@@ -246,8 +205,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/firebase_messaging/ios"
   Flutter:
     :path: Flutter
-  flutter_facebook_auth:
-    :path: ".symlinks/plugins/flutter_facebook_auth/ios"
   flutter_image_compress:
     :path: ".symlinks/plugins/flutter_image_compress/ios"
   flutter_inappwebview:
@@ -256,14 +213,10 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_keyboard_visibility/ios"
   flutter_local_notifications:
     :path: ".symlinks/plugins/flutter_local_notifications/ios"
-  flutter_secure_storage:
-    :path: ".symlinks/plugins/flutter_secure_storage/ios"
   geolocator_apple:
     :path: ".symlinks/plugins/geolocator_apple/ios"
   google_maps_flutter:
     :path: ".symlinks/plugins/google_maps_flutter/ios"
-  google_sign_in_ios:
-    :path: ".symlinks/plugins/google_sign_in_ios/ios"
   image_compression_flutter:
     :path: ".symlinks/plugins/image_compression_flutter/ios"
   image_picker_ios:
@@ -290,13 +243,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
 
 SPEC CHECKSUMS:
-  AppAuth: 8fca6b5563a5baef2c04bee27538025e4ceb2add
   audio_session: 4f3e461722055d21515cf3261b64c973c062f345
   connectivity: c4130b2985d4ef6fd26f9702e886bd5260681467
-  FBAEMKit: d8312d8451ead46282adc7f3565ffc4965e3a4a7
-  FBSDKCoreKit: 81879058dd06208c0820fc713d054ca54903e8ba
-  FBSDKCoreKit_Basics: eebc9bb69a0e5d133b92dca53a20716227faa454
-  FBSDKLoginKit: 11995469cd7da16fd4d5245e8d2ec61060479270
   Firebase: ef75abb1cdbc746d5a38f4e26c422c807b189b8c
   firebase_core: 96214f90497b808a2cf2a24517084c5f6de37b53
   firebase_messaging: a2cd2c6dd7b5430bb9e4e50e9a474413ae3bce09
@@ -306,22 +254,16 @@ SPEC CHECKSUMS:
   FirebaseInstallations: 54b40022cb06e462740c9f2b9fbe38b5e78a825a
   FirebaseMessaging: 2f6e38b6133059eb796ec224104f09379298a8c3
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  flutter_facebook_auth: ad30745952f77ef167ec2ca5ddf29143c2c8c2e0
   flutter_image_compress: fd2b476345226e1a10ea352fa306af95704642c1
   flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
   flutter_keyboard_visibility: 0339d06371254c3eb25eeb90ba8d17dca8f9c069
   flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
-  flutter_secure_storage: 7953c38a04c3fdbb00571bcd87d8e3b5ceb9daec
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   geolocator_apple: cc556e6844d508c95df1e87e3ea6fa4e58c50401
   google_maps_flutter: c59fc576c0d0c7f4dc4bd63832c862d22d5a7c6d
-  google_sign_in_ios: 4f85eb9f937450765c8573bb85fd8cd6a5af675c
   GoogleDataTransport: 5fffe35792f8b96ec8d6775f5eccd83c998d5a3b
   GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
-  GoogleSignIn: 5651ce3a61e56ca864160e79b484cd9ed3f49b7a
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
-  GTMAppAuth: 0ff230db599948a9ad7470ca667337803b3fc4dd
-  GTMSessionFetcher: ffbb25ec00ebcb5201adab0a56d808f6f1902d9f
   image_compression_flutter: 5327fc5ee43f5ee6107d44ff0d4480a363788358
   image_picker_ios: b786a5dcf033a8336a657191401bfdf12017dabb
   just_audio: baa7252489dbcf47a4c7cc9ca663e9661c99aafa
